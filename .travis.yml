@@ -3,6 +3,6 @@ rvm:
   - 2.2.3
 sudo: required
 before_script:
-  - psql -c 'create database workshops_test;' -U workshops
+  - psql -c 'create database workshops_test;' -U postgres
 addons:
   postgresql: '9.3'
