@@ -48,6 +48,22 @@ img {
   @extend .text-center;
 }
 
+
+
+/*#student_birthdate_1i {
+  display: inline-block;
+  width: 30%;
+  
+}
+#student_birthdate_2i {
+  display: inline-block;
+  width: 40%;
+}
+#student_birthdate_3i {
+  display: inline-block;
+  width: 30%;
+}*/
+
 .submit {
   @extend .btn;
   @extend .btn-primary;
