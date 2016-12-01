@@ -4,7 +4,8 @@ class StudentDecorator < BaseDecorator
   end
 
   def avg_notes(subject_item)
-  	notes = subject_item.subject_item_notes
+    student_id = self.id
+  	notes = subject_item.subject_item_notes.where("student_id=#{student_id}")
   	if notes.count == 0
   		'0.00'
   	else
