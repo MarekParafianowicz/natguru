@@ -6,7 +6,7 @@ User.create!(email: 'admin@admin.com',password: 'adminadmin')
 teachers_arr = [
   { first_name: "Albus", last_name: "Dumbledore", academic_title: "Prof." },
   { first_name: "Severus", last_name: "Snape", academic_title: TEACHER_TITLES.sample },
-  { first_name: "Albus", last_name: "Dumbledore", academic_title: TEACHER_TITLES.sample }
+  { first_name: "Rubeus", last_name: "Hagrid", academic_title: TEACHER_TITLES.sample }
 ]
 teachers_arr.each do |teacher|
   Teacher.create!(teacher)
