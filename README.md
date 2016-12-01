@@ -1,5 +1,8 @@
 [![Build Status](https://travis-ci.org/MarekParafianowicz/netguru.svg?branch=master)](https://travis-ci.org/MarekParafianowicz/netguru)
 
+### Application is deployed on [Heroku](https://netguru-ror-task.herokuapp.com/).
+-------------
+
 RoR Workshops
 ================
 
