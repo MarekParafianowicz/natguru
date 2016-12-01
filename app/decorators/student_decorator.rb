@@ -14,4 +14,13 @@ class StudentDecorator < BaseDecorator
   		round_avg = '%.02f' % notes_avg
   	end
   end
+
+  def birthdate_correct_form
+    if self.birthdate.blank?
+      nil
+    else
+      birthdate.strftime("%Y-%m_%d")
+    end
+
+  end
 end
